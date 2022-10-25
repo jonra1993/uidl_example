@@ -1,0 +1,30 @@
+{
+  "name": "uidl_example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jonra1993/uidl_example.git",
+  "author": "jonra1993 <jon_ra@hotmail.es>",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nodemon",
+    "build": "rimraf ./build && tsc",
+    "start": "npm run build && node build/index.js"
+  },
+  "dependencies": {
+    "@teleporthq/teleport-component-generator": "^0.22.4",
+    "@teleporthq/teleport-component-generator-html": "^0.22.4",
+    "@teleporthq/teleport-component-generator-react": "^0.22.4",
+    "@teleporthq/teleport-project-generator-html": "^0.22.4",
+    "@teleporthq/teleport-project-generator-next": "^0.22.4",
+    "@teleporthq/teleport-project-packer": "^0.22.0",
+    "@teleporthq/teleport-publisher-disk": "^0.22.0"
+  },
+  "devDependencies": {
+    "@teleporthq/teleport-types": "^0.22.0",
+    "@types/node": "^18.11.5",
+    "nodemon": "^2.0.20",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}
