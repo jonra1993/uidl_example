@@ -1,0 +1,1505 @@
+{
+  "propDefinitions": {},
+  "node": {
+    "type": "element",
+    "content": {
+      "elementType": "container",
+      "referencedStyles": {},
+      "abilities": {},
+      "style": {
+        "width": {
+          "type": "static",
+          "content": "100%"
+        },
+        "height": {
+          "type": "static",
+          "content": "auto"
+        },
+        "display": {
+          "type": "static",
+          "content": "flex"
+        },
+        "minHeight": {
+          "type": "static",
+          "content": "100vh"
+        },
+        "alignItems": {
+          "type": "static",
+          "content": "center"
+        },
+        "flexDirection": {
+          "type": "static",
+          "content": "column"
+        }
+      },
+      "children": [
+        {
+          "type": "element",
+          "content": {
+            "elementType": "container",
+            "name": "Hero",
+            "referencedStyles": {
+              "45b3390c-653c-4a53-9b7f-a6c7bd99766e": {
+                "type": "style-map",
+                "content": {
+                  "conditions": [
+                    {
+                      "maxWidth": 991,
+                      "conditionType": "screen-size"
+                    }
+                  ],
+                  "mapType": "inlined",
+                  "styles": {
+                    "flexDirection": {
+                      "type": "static",
+                      "content": "column-reverse"
+                    }
+                  }
+                }
+              }
+            },
+            "abilities": {},
+            "style": {
+              "width": {
+                "type": "static",
+                "content": "100%"
+              },
+              "display": {
+                "type": "static",
+                "content": "flex"
+              },
+              "maxWidth": {
+                "type": "dynamic",
+                "content": {
+                  "referenceType": "token",
+                  "id": "--dl-size-size-maxcontent"
+                }
+              },
+              "marginTop": {
+                "type": "dynamic",
+                "content": {
+                  "referenceType": "token",
+                  "id": "--dl-space-space-fiveunits"
+                }
+              },
+              "alignItems": {
+                "type": "static",
+                "content": "center"
+              },
+              "paddingTop": {
+                "type": "dynamic",
+                "content": {
+                  "referenceType": "token",
+                  "id": "--dl-space-space-fiveunits"
+                }
+              },
+              "paddingLeft": {
+                "type": "dynamic",
+                "content": {
+                  "referenceType": "token",
+                  "id": "--dl-space-space-tripleunit"
+                }
+              },
+              "marginBottom": {
+                "type": "dynamic",
+                "content": {
+                  "referenceType": "token",
+                  "id": "--dl-space-space-fiveunits"
+                }
+              },
+              "paddingRight": {
+                "type": "dynamic",
+                "content": {
+                  "referenceType": "token",
+                  "id": "--dl-space-space-tripleunit"
+                }
+              },
+              "flexDirection": {
+                "type": "static",
+                "content": "row"
+              },
+              "paddingBottom": {
+                "type": "dynamic",
+                "content": {
+                  "referenceType": "token",
+                  "id": "--dl-space-space-fiveunits"
+                }
+              },
+              "justifyContent": {
+                "type": "static",
+                "content": "space-between"
+              }
+            },
+            "children": [
+              {
+                "type": "element",
+                "content": {
+                  "elementType": "container",
+                  "name": "Hero-text-container",
+                  "referencedStyles": {
+                    "455af948-5e93-4924-be7f-a578e14a4192": {
+                      "type": "style-map",
+                      "content": {
+                        "conditions": [
+                          {
+                            "maxWidth": 479,
+                            "conditionType": "screen-size"
+                          }
+                        ],
+                        "mapType": "inlined",
+                        "styles": {
+                          "width": {
+                            "type": "static",
+                            "content": "100%"
+                          }
+                        }
+                      }
+                    },
+                    "47c8d7d6-bd76-4c13-95db-2c75f9a93ebc": {
+                      "type": "style-map",
+                      "content": {
+                        "conditions": [
+                          {
+                            "maxWidth": 991,
+                            "conditionType": "screen-size"
+                          }
+                        ],
+                        "mapType": "inlined",
+                        "styles": {
+                          "width": {
+                            "type": "static",
+                            "content": "80%"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "abilities": {},
+                  "style": {
+                    "width": {
+                      "type": "static",
+                      "content": "35%"
+                    },
+                    "display": {
+                      "type": "static",
+                      "content": "flex"
+                    },
+                    "alignItems": {
+                      "type": "static",
+                      "content": "flex-start"
+                    },
+                    "marginLeft": {
+                      "type": "static",
+                      "content": "50px"
+                    },
+                    "flexDirection": {
+                      "type": "static",
+                      "content": "column"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "content": {
+                        "elementType": "text",
+                        "name": "Heading",
+                        "referencedStyles": {
+                          "31b0e66d-3a8f-4dfd-940d-b78b054f671b": {
+                            "type": "style-map",
+                            "content": {
+                              "conditions": [
+                                {
+                                  "maxWidth": 767,
+                                  "conditionType": "screen-size"
+                                }
+                              ],
+                              "mapType": "inlined",
+                              "styles": {
+                                "textAlign": {
+                                  "type": "static",
+                                  "content": "center"
+                                }
+                              }
+                            }
+                          },
+                          "5fdf2cf1-732f-4c62-89aa-2ee60aa375d2": {
+                            "type": "style-map",
+                            "content": {
+                              "mapType": "project-referenced",
+                              "referenceId": "section-Heading"
+                            }
+                          }
+                        },
+                        "abilities": {},
+                        "style": {
+                          "marginBottom": {
+                            "type": "dynamic",
+                            "content": {
+                              "referenceType": "token",
+                              "id": "--dl-space-space-tripleunit"
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "type": "element",
+                            "content": {
+                              "elementType": "text",
+                              "referencedStyles": {},
+                              "abilities": {},
+                              "children": [
+                                {
+                                  "type": "static",
+                                  "content": "Start building your beautiful website. "
+                                },
+                                {
+                                  "type": "raw",
+                                  "content": " "
+                                }
+                              ],
+                              "semanticType": "span"
+                            }
+                          },
+                          {
+                            "type": "element",
+                            "content": {
+                              "elementType": "text",
+                              "referencedStyles": {},
+                              "abilities": {},
+                              "children": [],
+                              "semanticType": "br"
+                            }
+                          },
+                          {
+                            "type": "element",
+                            "content": {
+                              "elementType": "text",
+                              "referencedStyles": {},
+                              "abilities": {},
+                              "children": [
+                                {
+                                  "type": "static",
+                                  "content": "It's free."
+                                }
+                              ],
+                              "semanticType": "span"
+                            }
+                          }
+                        ],
+                        "semanticType": "h1"
+                      }
+                    },
+                    {
+                      "type": "element",
+                      "content": {
+                        "elementType": "text",
+                        "name": "Text",
+                        "referencedStyles": {
+                          "30868c81-c818-44ec-9405-f07afc26f736": {
+                            "type": "style-map",
+                            "content": {
+                              "mapType": "project-referenced",
+                              "referenceId": "section-Text"
+                            }
+                          },
+                          "6417a829-c5bc-4304-956f-1081048fc54d": {
+                            "type": "style-map",
+                            "content": {
+                              "conditions": [
+                                {
+                                  "maxWidth": 767,
+                                  "conditionType": "screen-size"
+                                }
+                              ],
+                              "mapType": "inlined",
+                              "styles": {
+                                "textAlign": {
+                                  "type": "static",
+                                  "content": "center"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "abilities": {},
+                        "style": {
+                          "color": {
+                            "type": "dynamic",
+                            "content": {
+                              "referenceType": "token",
+                              "id": "--dl-color-gray-500"
+                            }
+                          },
+                          "marginBottom": {
+                            "type": "dynamic",
+                            "content": {
+                              "referenceType": "token",
+                              "id": "--dl-space-space-tripleunit"
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "type": "static",
+                            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+                          }
+                        ],
+                        "semanticType": "span"
+                      }
+                    },
+                    {
+                      "type": "element",
+                      "content": {
+                        "elementType": "button",
+                        "name": "Cta-btn",
+                        "referencedStyles": {
+                          "00020e05-153a-4a49-a0ff-cfd93de47971": {
+                            "type": "style-map",
+                            "content": {
+                              "mapType": "project-referenced",
+                              "referenceId": "anchor"
+                            }
+                          },
+                          "49e24f47-152b-4e3a-af14-e36476e82441": {
+                            "type": "style-map",
+                            "content": {
+                              "conditions": [
+                                {
+                                  "maxWidth": 991,
+                                  "conditionType": "screen-size"
+                                }
+                              ],
+                              "mapType": "inlined",
+                              "styles": {
+                                "width": {
+                                  "type": "static",
+                                  "content": "40%"
+                                }
+                              }
+                            }
+                          },
+                          "6210b75b-4f68-413c-b959-7ec0ffdb65dc": {
+                            "id": "6210b75b-4f68-413c-b959-7ec0ffdb65dc",
+                            "type": "style-map",
+                            "content": {
+                              "mapType": "project-referenced",
+                              "referenceId": "button"
+                            }
+                          }
+                        },
+                        "abilities": {},
+                        "style": {
+                          "color": {
+                            "type": "dynamic",
+                            "content": {
+                              "referenceType": "token",
+                              "id": "--dl-color-gray-white"
+                            }
+                          },
+                          "alignSelf": {
+                            "type": "static",
+                            "content": "stretch"
+                          },
+                          "textAlign": {
+                            "type": "static",
+                            "content": "center"
+                          },
+                          "paddingTop": {
+                            "type": "dynamic",
+                            "content": {
+                              "referenceType": "token",
+                              "id": "--dl-space-space-doubleunit"
+                            }
+                          },
+                          "borderWidth": {
+                            "type": "static",
+                            "content": "0px"
+                          },
+                          "borderRadius": {
+                            "type": "static",
+                            "content": "34px"
+                          },
+                          "paddingBottom": {
+                            "type": "dynamic",
+                            "content": {
+                              "referenceType": "token",
+                              "id": "--dl-space-space-doubleunit"
+                            }
+                          },
+                          "backgroundColor": {
+                            "type": "dynamic",
+                            "content": {
+                              "referenceType": "token",
+                              "id": "--dl-color-primary-100"
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "type": "static",
+                            "content": "START BUILDING"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "semanticType": "div"
+                }
+              },
+              {
+                "type": "element",
+                "content": {
+                  "elementType": "image",
+                  "name": "Image",
+                  "referencedStyles": {
+                    "014eb66b-117f-4857-a5c6-6ed718cf7cf9": {
+                      "type": "style-map",
+                      "content": {
+                        "conditions": [
+                          {
+                            "maxWidth": 479,
+                            "conditionType": "screen-size"
+                          }
+                        ],
+                        "mapType": "inlined",
+                        "styles": {
+                          "width": {
+                            "type": "static",
+                            "content": "100%"
+                          }
+                        }
+                      }
+                    },
+                    "e06a49ec-6a90-427c-b322-7c20355c4b32": {
+                      "type": "style-map",
+                      "content": {
+                        "conditions": [
+                          {
+                            "maxWidth": 991,
+                            "conditionType": "screen-size"
+                          }
+                        ],
+                        "mapType": "inlined",
+                        "styles": {
+                          "width": {
+                            "type": "static",
+                            "content": "80%"
+                          },
+                          "marginBottom": {
+                            "type": "dynamic",
+                            "content": {
+                              "referenceType": "token",
+                              "id": "--dl-space-space-tripleunit"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "abilities": {},
+                  "attrs": {
+                    "alt": {
+                      "type": "static",
+                      "content": "image"
+                    },
+                    "src": {
+                      "type": "static",
+                      "content": "https://images.unsplash.com/photo-1619314528204-59477dba78d2?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1000"
+                    }
+                  },
+                  "style": {
+                    "width": {
+                      "type": "static",
+                      "content": "50%"
+                    },
+                    "objectFit": {
+                      "type": "static",
+                      "content": "contain"
+                    }
+                  },
+                  "children": []
+                }
+              }
+            ],
+            "semanticType": "div"
+          }
+        },
+        {
+          "type": "element",
+          "content": {
+            "elementType": "container",
+            "name": "Section-separator",
+            "referencedStyles": {},
+            "abilities": {},
+            "style": {
+              "width": {
+                "type": "static",
+                "content": "100%"
+              },
+              "height": {
+                "type": "static",
+                "content": "1px"
+              },
+              "display": {
+                "type": "static",
+                "content": "flex"
+              },
+              "alignItems": {
+                "type": "static",
+                "content": "flex-start"
+              },
+              "flexDirection": {
+                "type": "static",
+                "content": "column"
+              },
+              "backgroundColor": {
+                "type": "dynamic",
+                "content": {
+                  "referenceType": "token",
+                  "id": "--dl-color-gray-700"
+                }
+              }
+            },
+            "children": [],
+            "semanticType": "div"
+          }
+        },
+        {
+          "type": "element",
+          "content": {
+            "elementType": "container",
+            "name": "Features",
+            "referencedStyles": {},
+            "abilities": {},
+            "attrs": {
+              "id": {
+                "type": "static",
+                "content": "features"
+              }
+            },
+            "style": {
+              "width": {
+                "type": "static",
+                "content": "100%"
+              },
+              "display": {
+                "type": "static",
+                "content": "flex"
+              },
+              "maxWidth": {
+                "type": "dynamic",
+                "content": {
+                  "referenceType": "token",
+                  "id": "--dl-size-size-maxcontent"
+                }
+              },
+              "alignItems": {
+                "type": "static",
+                "content": "center"
+              },
+              "paddingTop": {
+                "type": "dynamic",
+                "content": {
+                  "referenceType": "token",
+                  "id": "--dl-space-space-tenunits"
+                }
+              },
+              "paddingLeft": {
+                "type": "dynamic",
+                "content": {
+                  "referenceType": "token",
+                  "id": "--dl-space-space-tripleunit"
+                }
+              },
+              "paddingRight": {
+                "type": "dynamic",
+                "content": {
+                  "referenceType": "token",
+                  "id": "--dl-space-space-tripleunit"
+                }
+              },
+              "flexDirection": {
+                "type": "static",
+                "content": "column"
+              },
+              "paddingBottom": {
+                "type": "dynamic",
+                "content": {
+                  "referenceType": "token",
+                  "id": "--dl-space-space-tenunits"
+                }
+              }
+            },
+            "children": [
+              {
+                "type": "element",
+                "content": {
+                  "elementType": "container",
+                  "name": "Heading-container",
+                  "referencedStyles": {
+                    "01257cd7-40c5-4ab5-ac98-b6dd26ffe9b9": {
+                      "type": "style-map",
+                      "content": {
+                        "conditions": [
+                          {
+                            "maxWidth": 767,
+                            "conditionType": "screen-size"
+                          }
+                        ],
+                        "mapType": "inlined",
+                        "styles": {
+                          "width": {
+                            "type": "static",
+                            "content": "100%"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "abilities": {},
+                  "style": {
+                    "width": {
+                      "type": "static",
+                      "content": "45%"
+                    },
+                    "display": {
+                      "type": "static",
+                      "content": "flex"
+                    },
+                    "alignItems": {
+                      "type": "static",
+                      "content": "center"
+                    },
+                    "marginBottom": {
+                      "type": "dynamic",
+                      "content": {
+                        "referenceType": "token",
+                        "id": "--dl-space-space-fiveunits"
+                      }
+                    },
+                    "flexDirection": {
+                      "type": "static",
+                      "content": "column"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "content": {
+                        "elementType": "text",
+                        "referencedStyles": {
+                          "ca2b6425-dece-4636-ad46-d3fa5a88747f": {
+                            "type": "style-map",
+                            "content": {
+                              "mapType": "project-referenced",
+                              "referenceId": "section-Heading"
+                            }
+                          }
+                        },
+                        "abilities": {},
+                        "style": {
+                          "textAlign": {
+                            "type": "static",
+                            "content": "center"
+                          },
+                          "marginBottom": {
+                            "type": "dynamic",
+                            "content": {
+                              "referenceType": "token",
+                              "id": "--dl-space-space-fourunits"
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "type": "static",
+                            "content": "Tell your story"
+                          }
+                        ],
+                        "semanticType": "h2"
+                      }
+                    },
+                    {
+                      "type": "element",
+                      "content": {
+                        "elementType": "text",
+                        "name": "Text",
+                        "referencedStyles": {
+                          "ddb66228-8735-4d9a-a25b-b21a2211bbf9": {
+                            "type": "style-map",
+                            "content": {
+                              "mapType": "project-referenced",
+                              "referenceId": "section-Text"
+                            }
+                          }
+                        },
+                        "abilities": {},
+                        "style": {
+                          "color": {
+                            "type": "dynamic",
+                            "content": {
+                              "referenceType": "token",
+                              "id": "--dl-color-gray-500"
+                            }
+                          },
+                          "textAlign": {
+                            "type": "static",
+                            "content": "center"
+                          }
+                        },
+                        "children": [
+                          {
+                            "type": "static",
+                            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+                          }
+                        ],
+                        "semanticType": "span"
+                      }
+                    }
+                  ],
+                  "semanticType": "div"
+                }
+              },
+              {
+                "type": "element",
+                "content": {
+                  "elementType": "container",
+                  "name": "Cards-container",
+                  "referencedStyles": {
+                    "f69c1323-3f86-45a1-af8d-a0860e150ce7": {
+                      "type": "style-map",
+                      "content": {
+                        "conditions": [
+                          {
+                            "maxWidth": 767,
+                            "conditionType": "screen-size"
+                          }
+                        ],
+                        "mapType": "inlined",
+                        "styles": {
+                          "alignItems": {
+                            "type": "static",
+                            "content": "center"
+                          },
+                          "flexDirection": {
+                            "type": "static",
+                            "content": "column"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "abilities": {},
+                  "style": {
+                    "width": {
+                      "type": "static",
+                      "content": "100%"
+                    },
+                    "display": {
+                      "type": "static",
+                      "content": "flex"
+                    },
+                    "flexWrap": {
+                      "type": "static",
+                      "content": "wrap"
+                    },
+                    "alignItems": {
+                      "type": "static",
+                      "content": "flex-start"
+                    },
+                    "flexDirection": {
+                      "type": "static",
+                      "content": "row"
+                    },
+                    "justifyContent": {
+                      "type": "static",
+                      "content": "space-between"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "content": {
+                        "elementType": "container",
+                        "name": "Feature-card",
+                        "referencedStyles": {
+                          "20d0f558-8a2e-4633-909f-9757fd0b0d49": {
+                            "type": "style-map",
+                            "content": {
+                              "conditions": [
+                                {
+                                  "maxWidth": 479,
+                                  "conditionType": "screen-size"
+                                }
+                              ],
+                              "mapType": "inlined",
+                              "styles": {
+                                "width": {
+                                  "type": "static",
+                                  "content": "100%"
+                                }
+                              }
+                            }
+                          },
+                          "2eb31759-941c-4ce3-909b-7b9ebc5edb8f": {
+                            "type": "style-map",
+                            "content": {
+                              "conditions": [
+                                {
+                                  "maxWidth": 991,
+                                  "conditionType": "screen-size"
+                                }
+                              ],
+                              "mapType": "inlined",
+                              "styles": {
+                                "alignSelf": {
+                                  "type": "static",
+                                  "content": "center"
+                                }
+                              }
+                            }
+                          },
+                          "3db052c0-cab5-4f53-812d-f8448a185554": {
+                            "type": "style-map",
+                            "content": {
+                              "conditions": [
+                                {
+                                  "maxWidth": 767,
+                                  "conditionType": "screen-size"
+                                }
+                              ],
+                              "mapType": "inlined",
+                              "styles": {
+                                "width": {
+                                  "type": "static",
+                                  "content": "70%"
+                                },
+                                "marginBottom": {
+                                  "type": "dynamic",
+                                  "content": {
+                                    "referenceType": "token",
+                                    "id": "--dl-space-space-tripleunit"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "abilities": {},
+                        "style": {
+                          "width": {
+                            "type": "static",
+                            "content": "30%"
+                          },
+                          "display": {
+                            "type": "static",
+                            "content": "flex"
+                          },
+                          "position": {
+                            "type": "static",
+                            "content": "relative"
+                          },
+                          "alignSelf": {
+                            "type": "static",
+                            "content": "flex-start"
+                          },
+                          "alignItems": {
+                            "type": "static",
+                            "content": "center"
+                          },
+                          "paddingTop": {
+                            "type": "dynamic",
+                            "content": {
+                              "referenceType": "token",
+                              "id": "--dl-space-space-doubleunit"
+                            }
+                          },
+                          "paddingLeft": {
+                            "type": "dynamic",
+                            "content": {
+                              "referenceType": "token",
+                              "id": "--dl-space-space-doubleunit"
+                            }
+                          },
+                          "paddingRight": {
+                            "type": "dynamic",
+                            "content": {
+                              "referenceType": "token",
+                              "id": "--dl-space-space-doubleunit"
+                            }
+                          },
+                          "flexDirection": {
+                            "type": "static",
+                            "content": "column"
+                          },
+                          "paddingBottom": {
+                            "type": "dynamic",
+                            "content": {
+                              "referenceType": "token",
+                              "id": "--dl-space-space-doubleunit"
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "type": "element",
+                            "content": {
+                              "elementType": "image",
+                              "referencedStyles": {},
+                              "abilities": {},
+                              "attrs": {
+                                "alt": {
+                                  "type": "static",
+                                  "content": "image"
+                                },
+                                "src": {
+                                  "type": "static",
+                                  "content": "https://images.unsplash.com/photo-1619548683455-23b17c3ddc30?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=1000"
+                                }
+                              },
+                              "style": {
+                                "width": {
+                                  "type": "static",
+                                  "content": "100px"
+                                },
+                                "objectFit": {
+                                  "type": "static",
+                                  "content": "cover"
+                                },
+                                "marginBottom": {
+                                  "type": "static",
+                                  "content": "20px"
+                                }
+                              },
+                              "children": []
+                            }
+                          },
+                          {
+                            "type": "element",
+                            "content": {
+                              "elementType": "text",
+                              "name": "Heading",
+                              "referencedStyles": {
+                                "beac5201-8f88-4f10-8140-67f807b53e5e": {
+                                  "type": "style-map",
+                                  "content": {
+                                    "mapType": "project-referenced",
+                                    "referenceId": "card-Heading"
+                                  }
+                                }
+                              },
+                              "abilities": {},
+                              "style": {
+                                "marginBottom": {
+                                  "type": "dynamic",
+                                  "content": {
+                                    "referenceType": "token",
+                                    "id": "--dl-space-space-tripleunit"
+                                  }
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "static",
+                                  "content": "Why"
+                                }
+                              ],
+                              "semanticType": "span"
+                            }
+                          },
+                          {
+                            "type": "element",
+                            "content": {
+                              "elementType": "text",
+                              "referencedStyles": {
+                                "a52c72eb-3390-4089-8c76-eefe0e443836": {
+                                  "type": "style-map",
+                                  "content": {
+                                    "mapType": "project-referenced",
+                                    "referenceId": "card-Text"
+                                  }
+                                }
+                              },
+                              "abilities": {},
+                              "style": {
+                                "color": {
+                                  "type": "dynamic",
+                                  "content": {
+                                    "referenceType": "token",
+                                    "id": "--dl-color-gray-500"
+                                  }
+                                },
+                                "textAlign": {
+                                  "type": "static",
+                                  "content": "center"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "static",
+                                  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet."
+                                }
+                              ],
+                              "semanticType": "span"
+                            }
+                          }
+                        ],
+                        "semanticType": "div"
+                      }
+                    },
+                    {
+                      "type": "element",
+                      "content": {
+                        "elementType": "container",
+                        "name": "Feature-card",
+                        "referencedStyles": {
+                          "5be6d36f-852f-4b81-8c9f-db43d21e2826": {
+                            "type": "style-map",
+                            "content": {
+                              "conditions": [
+                                {
+                                  "maxWidth": 479,
+                                  "conditionType": "screen-size"
+                                }
+                              ],
+                              "mapType": "inlined",
+                              "styles": {
+                                "width": {
+                                  "type": "static",
+                                  "content": "100%"
+                                }
+                              }
+                            }
+                          },
+                          "b73f2606-7dcc-49bc-b6f8-42146b738ccd": {
+                            "type": "style-map",
+                            "content": {
+                              "conditions": [
+                                {
+                                  "maxWidth": 767,
+                                  "conditionType": "screen-size"
+                                }
+                              ],
+                              "mapType": "inlined",
+                              "styles": {
+                                "width": {
+                                  "type": "static",
+                                  "content": "70%"
+                                },
+                                "marginBottom": {
+                                  "type": "dynamic",
+                                  "content": {
+                                    "referenceType": "token",
+                                    "id": "--dl-space-space-tripleunit"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "abilities": {},
+                        "style": {
+                          "width": {
+                            "type": "static",
+                            "content": "30%"
+                          },
+                          "display": {
+                            "type": "static",
+                            "content": "flex"
+                          },
+                          "alignItems": {
+                            "type": "static",
+                            "content": "center"
+                          },
+                          "paddingTop": {
+                            "type": "dynamic",
+                            "content": {
+                              "referenceType": "token",
+                              "id": "--dl-space-space-doubleunit"
+                            }
+                          },
+                          "paddingLeft": {
+                            "type": "dynamic",
+                            "content": {
+                              "referenceType": "token",
+                              "id": "--dl-space-space-doubleunit"
+                            }
+                          },
+                          "paddingRight": {
+                            "type": "dynamic",
+                            "content": {
+                              "referenceType": "token",
+                              "id": "--dl-space-space-doubleunit"
+                            }
+                          },
+                          "flexDirection": {
+                            "type": "static",
+                            "content": "column"
+                          },
+                          "paddingBottom": {
+                            "type": "dynamic",
+                            "content": {
+                              "referenceType": "token",
+                              "id": "--dl-space-space-doubleunit"
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "type": "element",
+                            "content": {
+                              "elementType": "image",
+                              "referencedStyles": {},
+                              "abilities": {},
+                              "attrs": {
+                                "alt": {
+                                  "type": "static",
+                                  "content": "image"
+                                },
+                                "src": {
+                                  "type": "static",
+                                  "content": "https://images.unsplash.com/photo-1619547871672-b6562e042c1e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=1000"
+                                }
+                              },
+                              "style": {
+                                "width": {
+                                  "type": "static",
+                                  "content": "100px"
+                                },
+                                "objectFit": {
+                                  "type": "static",
+                                  "content": "cover"
+                                },
+                                "marginBottom": {
+                                  "type": "static",
+                                  "content": "20px"
+                                }
+                              },
+                              "children": []
+                            }
+                          },
+                          {
+                            "type": "element",
+                            "content": {
+                              "elementType": "text",
+                              "name": "Heading",
+                              "referencedStyles": {
+                                "a2591d63-e319-474f-b29e-29ea0fddee70": {
+                                  "type": "style-map",
+                                  "content": {
+                                    "mapType": "project-referenced",
+                                    "referenceId": "card-Heading"
+                                  }
+                                }
+                              },
+                              "abilities": {},
+                              "style": {
+                                "marginBottom": {
+                                  "type": "dynamic",
+                                  "content": {
+                                    "referenceType": "token",
+                                    "id": "--dl-space-space-tripleunit"
+                                  }
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "static",
+                                  "content": "What"
+                                }
+                              ],
+                              "semanticType": "span"
+                            }
+                          },
+                          {
+                            "type": "element",
+                            "content": {
+                              "elementType": "text",
+                              "referencedStyles": {
+                                "53ad73fc-02b8-4760-9ca4-75fdc6b8e7ca": {
+                                  "type": "style-map",
+                                  "content": {
+                                    "mapType": "project-referenced",
+                                    "referenceId": "card-Text"
+                                  }
+                                }
+                              },
+                              "abilities": {},
+                              "style": {
+                                "color": {
+                                  "type": "dynamic",
+                                  "content": {
+                                    "referenceType": "token",
+                                    "id": "--dl-color-gray-500"
+                                  }
+                                },
+                                "textAlign": {
+                                  "type": "static",
+                                  "content": "center"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "static",
+                                  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet."
+                                }
+                              ],
+                              "semanticType": "span"
+                            }
+                          }
+                        ],
+                        "semanticType": "div"
+                      }
+                    },
+                    {
+                      "type": "element",
+                      "content": {
+                        "elementType": "container",
+                        "name": "Feature-card",
+                        "referencedStyles": {
+                          "03764676-71f6-44e3-b12d-0d711c715442": {
+                            "type": "style-map",
+                            "content": {
+                              "conditions": [
+                                {
+                                  "maxWidth": 479,
+                                  "conditionType": "screen-size"
+                                }
+                              ],
+                              "mapType": "inlined",
+                              "styles": {
+                                "width": {
+                                  "type": "static",
+                                  "content": "100%"
+                                }
+                              }
+                            }
+                          },
+                          "4dfe9a13-37ba-46d9-b8c5-4a94731bfa63": {
+                            "type": "style-map",
+                            "content": {
+                              "conditions": [
+                                {
+                                  "maxWidth": 767,
+                                  "conditionType": "screen-size"
+                                }
+                              ],
+                              "mapType": "inlined",
+                              "styles": {
+                                "width": {
+                                  "type": "static",
+                                  "content": "70%"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "abilities": {},
+                        "style": {
+                          "width": {
+                            "type": "static",
+                            "content": "30%"
+                          },
+                          "display": {
+                            "type": "static",
+                            "content": "flex"
+                          },
+                          "alignItems": {
+                            "type": "static",
+                            "content": "center"
+                          },
+                          "paddingTop": {
+                            "type": "dynamic",
+                            "content": {
+                              "referenceType": "token",
+                              "id": "--dl-space-space-doubleunit"
+                            }
+                          },
+                          "paddingLeft": {
+                            "type": "dynamic",
+                            "content": {
+                              "referenceType": "token",
+                              "id": "--dl-space-space-doubleunit"
+                            }
+                          },
+                          "paddingRight": {
+                            "type": "dynamic",
+                            "content": {
+                              "referenceType": "token",
+                              "id": "--dl-space-space-doubleunit"
+                            }
+                          },
+                          "flexDirection": {
+                            "type": "static",
+                            "content": "column"
+                          },
+                          "paddingBottom": {
+                            "type": "dynamic",
+                            "content": {
+                              "referenceType": "token",
+                              "id": "--dl-space-space-doubleunit"
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "type": "element",
+                            "content": {
+                              "elementType": "image",
+                              "referencedStyles": {},
+                              "abilities": {},
+                              "attrs": {
+                                "alt": {
+                                  "type": "static",
+                                  "content": "image"
+                                },
+                                "src": {
+                                  "type": "static",
+                                  "content": "https://images.unsplash.com/photo-1619555241737-9c364cf1fbce?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=1000"
+                                }
+                              },
+                              "style": {
+                                "width": {
+                                  "type": "static",
+                                  "content": "100px"
+                                },
+                                "objectFit": {
+                                  "type": "static",
+                                  "content": "cover"
+                                },
+                                "marginBottom": {
+                                  "type": "static",
+                                  "content": "20px"
+                                }
+                              },
+                              "children": []
+                            }
+                          },
+                          {
+                            "type": "element",
+                            "content": {
+                              "elementType": "text",
+                              "name": "Heading",
+                              "referencedStyles": {
+                                "72bb75d8-e62a-407a-958f-198134599944": {
+                                  "type": "style-map",
+                                  "content": {
+                                    "mapType": "project-referenced",
+                                    "referenceId": "card-Heading"
+                                  }
+                                }
+                              },
+                              "abilities": {},
+                              "style": {
+                                "marginBottom": {
+                                  "type": "dynamic",
+                                  "content": {
+                                    "referenceType": "token",
+                                    "id": "--dl-space-space-tripleunit"
+                                  }
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "static",
+                                  "content": "How"
+                                }
+                              ],
+                              "semanticType": "span"
+                            }
+                          },
+                          {
+                            "type": "element",
+                            "content": {
+                              "elementType": "text",
+                              "referencedStyles": {
+                                "b379b388-0266-4a84-85f1-e5716ef87ff9": {
+                                  "type": "style-map",
+                                  "content": {
+                                    "mapType": "project-referenced",
+                                    "referenceId": "card-Text"
+                                  }
+                                }
+                              },
+                              "abilities": {},
+                              "style": {
+                                "color": {
+                                  "type": "dynamic",
+                                  "content": {
+                                    "referenceType": "token",
+                                    "id": "--dl-color-gray-500"
+                                  }
+                                },
+                                "textAlign": {
+                                  "type": "static",
+                                  "content": "center"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "static",
+                                  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet."
+                                }
+                              ],
+                              "semanticType": "span"
+                            }
+                          }
+                        ],
+                        "semanticType": "div"
+                      }
+                    }
+                  ],
+                  "semanticType": "div"
+                }
+              }
+            ],
+            "semanticType": "div"
+          }
+        },
+        {
+          "type": "element",
+          "content": {
+            "elementType": "container",
+            "name": "Section-separator",
+            "referencedStyles": {},
+            "abilities": {},
+            "style": {
+              "width": {
+                "type": "static",
+                "content": "100%"
+              },
+              "height": {
+                "type": "static",
+                "content": "1px"
+              },
+              "display": {
+                "type": "static",
+                "content": "flex"
+              },
+              "alignItems": {
+                "type": "static",
+                "content": "flex-start"
+              },
+              "flexDirection": {
+                "type": "static",
+                "content": "column"
+              },
+              "backgroundColor": {
+                "type": "dynamic",
+                "content": {
+                  "referenceType": "token",
+                  "id": "--dl-color-gray-700"
+                }
+              }
+            },
+            "children": [],
+            "semanticType": "div"
+          }
+        }
+      ],
+      "semanticType": "div"
+    }
+  },
+  "name": "Home",
+  "styleSetDefinitions": {}
+}
