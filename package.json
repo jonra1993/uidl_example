@@ -10,7 +10,7 @@
     "build": "rimraf ./build && tsc",
     "turbo:build": "turbo build",
     "watch": "tsc --watch",
-    "start": "npm run build && node build/index.js"
+    "start": "node build/index.js"
   },
   "dependencies": {
     "@teleporthq/teleport-component-generator": "^0.22.4",
