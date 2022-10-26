@@ -30,7 +30,6 @@ const createNextProject = async () => {
     const project = await generator.generateProject(uidl)
     const outputPath = "./"
     const result = await publisher.publish({ project, outputPath })
-
     console.log(project)
 };
 
@@ -41,7 +40,6 @@ const createHtmlProject = async () => {
     const project = await generator.generateProject(uidl)
     const outputPath = "./"
     const result = await publisher.publish({ project, outputPath })
-
     console.log(project)
 };
 

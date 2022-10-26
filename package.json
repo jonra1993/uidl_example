@@ -6,8 +6,10 @@
   "author": "jonra1993 <jon_ra@hotmail.es>",
   "license": "MIT",
   "scripts": {
-    "start:dev": "nodemon",
+    "start:dev": "tsc -w & nodemon",
     "build": "rimraf ./build && tsc",
+    "turbo:build": "turbo build",
+    "watch": "tsc --watch",
     "start": "npm run build && node build/index.js"
   },
   "dependencies": {
@@ -25,6 +27,7 @@
     "nodemon": "^2.0.20",
     "rimraf": "^3.0.2",
     "ts-node": "^10.9.1",
+    "turbo": "^1.6.1",
     "typescript": "^4.8.4"
   }
 }
