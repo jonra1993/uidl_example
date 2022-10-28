@@ -19,7 +19,10 @@
     "@teleporthq/teleport-project-generator-html": "^0.22.4",
     "@teleporthq/teleport-project-generator-next": "^0.22.4",
     "@teleporthq/teleport-project-packer": "^0.22.0",
-    "@teleporthq/teleport-publisher-disk": "^0.22.0"
+    "@teleporthq/teleport-publisher-disk": "^0.22.0",
+    "@teleporthq/teleport-publisher-now": "^0.13.3",
+    "@teleporthq/teleport-publisher-vercel": "^0.22.0",
+    "@teleporthq/teleport-uidl-validator": "^0.22.0"
   },
   "devDependencies": {
     "@teleporthq/teleport-types": "^0.22.0",

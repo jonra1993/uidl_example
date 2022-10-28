@@ -696,6 +696,24 @@
     cross-fetch "^3.0.4"
     path-browserify "^1.0.1"
 
+"@teleporthq/teleport-publisher-now@^0.13.3":
+  version "0.13.3"
+  resolved "https://registry.yarnpkg.com/@teleporthq/teleport-publisher-now/-/teleport-publisher-now-0.13.3.tgz#c3941d921c46d5d97430216194c74bc545152530"
+  integrity sha512-Ed2OhWjRU4NbQTJ+b3TKd9ZDqFNB6qNbBcir6WFLRYnp96tadwOBd1xQ4f2huIx8OkO5NprjTDWyQvhRROdR8A==
+  dependencies:
+    "@teleporthq/teleport-types" "^0.13.3"
+    cross-fetch "^3.0.4"
+
+"@teleporthq/teleport-publisher-vercel@^0.22.0":
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/@teleporthq/teleport-publisher-vercel/-/teleport-publisher-vercel-0.22.0.tgz#869f23cf1c7cfd9fccd2659b6a7ceb2b25d44f68"
+  integrity sha512-aC11/PLzijNSOQJ6KfZusjGHrh3X5WKyrDN4M/gJU7H9zYv6i9y7UsFxlP0GRgkjx3ZHjQTms2t8Wv21DHO3Lw==
+  dependencies:
+    "@teleporthq/teleport-types" "^0.22.0"
+    async-retry "^1.3.3"
+    async-sema "^3.1.1"
+    node-fetch "^2.6.1"
+
 "@teleporthq/teleport-shared@^0.22.0":
   version "0.22.0"
   resolved "https://registry.yarnpkg.com/@teleporthq/teleport-shared/-/teleport-shared-0.22.0.tgz#a9ac9ea900a45db16a205f8efc1cdc04fff272d0"
@@ -705,6 +723,11 @@
     "@teleporthq/teleport-types" "^0.22.0"
     jss "^10.0.0"
     jss-preset-default "^10.0.0"
+
+"@teleporthq/teleport-types@^0.13.3":
+  version "0.13.3"
+  resolved "https://registry.yarnpkg.com/@teleporthq/teleport-types/-/teleport-types-0.13.3.tgz#e368e0c8529e46e7ed992e56aa702d65798196b6"
+  integrity sha512-jt98INaKzxYwVI/bXtFXeATtpFUlm+MxhJiRroAn6m2xoZD+CZXkcWf+DYTu12rRlP+xIR2Q3xGpO2+lkJciVg==
 
 "@teleporthq/teleport-types@^0.22.0":
   version "0.22.0"
@@ -826,6 +849,18 @@ argparse@^1.0.7:
   integrity sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==
   dependencies:
     sprintf-js "~1.0.2"
+
+async-retry@^1.3.3:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/async-retry/-/async-retry-1.3.3.tgz#0e7f36c04d8478e7a58bdbed80cedf977785f280"
+  integrity sha512-wfr/jstw9xNi/0teMHrRW7dsz3Lt5ARhYNZ2ewpadnhaIp5mbALhOAP+EAdsC7t4Z6wqsDVv9+W6gm1Dk9mEyw==
+  dependencies:
+    retry "0.13.1"
+
+async-sema@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/async-sema/-/async-sema-3.1.1.tgz#e527c08758a0f8f6f9f15f799a173ff3c40ea808"
+  integrity sha512-tLRNUXati5MFePdAk8dw7Qt7DpxPB60ofAgn8WRhW6a2rcimZnYBP9oxHiv0OHy+Wz7kPMG+t4LGdt31+4EmGg==
 
 available-typed-arrays@^1.0.5:
   version "1.0.5"
@@ -1787,7 +1822,7 @@ ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
 
-node-fetch@2.6.7, node-fetch@^2.6.7:
+node-fetch@2.6.7, node-fetch@^2.6.1, node-fetch@^2.6.7:
   version "2.6.7"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
   integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
@@ -1952,6 +1987,11 @@ repeat-string@^1.6.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/repeat-string/-/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
   integrity sha512-PV0dzCYDNfRi1jCDbJzpW7jNNDRuCOG/jI5ctQcGKt/clZD+YcPS3yIlWuTJMmESC8aevCFmWJy5wjAFgNqN6w==
+
+retry@0.13.1:
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/retry/-/retry-0.13.1.tgz#185b1587acf67919d63b357349e03537b2484658"
+  integrity sha512-XQBQ3I8W1Cge0Seh+6gjj03LbmRFWuoszgK9ooCpwYIrhhoO80pfq4cUkU5DkknwfOfFteRwlZ56PYOGYyFWdg==
 
 rimraf@^3.0.2:
   version "3.0.2"
